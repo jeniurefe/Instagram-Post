@@ -3,22 +3,20 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10%;
+    padding: 10;
     box-sizing: border-box;
 }
 
 div.post{
     background: white;
-    border: 1px solid black;
-    display: flex;
+    border: 1px solid rgb(121, 116, 116);
     flex-direction: column;
     height: 100%;
     width: 100%;
 }
 
 div.conteiner{
-    width: 600px;
-    margin:auto;
+    width: 500px;
 }
 .header{
     width: 100%;
@@ -27,14 +25,13 @@ div.conteiner{
     padding: 8px;
 }
 
-.icon-ellipse {
-    width: 98%;
+.logo {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
     align-items: center;
 }
-
+.html {
+    font-size: 200%;
+}
 .foorter{
     height: 200%;
 }
@@ -45,4 +42,7 @@ div.conteiner{
     margin: auto;
     padding: auto;
 
+}
+.iconos{
+   font-size: 100%;
 }
